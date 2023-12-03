@@ -63,8 +63,8 @@ const Banner = () => {
                     animate='animate' className='flex flex-col  md:flex-row space-x-3 mt-7'>
                     <div className='flex -space-x-4 overflow-hidden'>
                     {userList.map(src => (
-                        <div className='w-12 h-12 border-2 rounded-full flex justify-center items-center'>
-                            <Image src={src} className=' rounded-full' key={src} alt='user' />
+                        <div key={src} className='w-12 h-12 border-2 rounded-full flex justify-center items-center'>
+                            <Image src={src} className=' rounded-full'  alt='user' />
                         </div>
                     ))} 
                     </div>
