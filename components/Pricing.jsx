@@ -61,7 +61,7 @@ const PriceCard = ({price,high}) => {
                 <p className="text-center text-xs leading-4 font-medium">no credit card needed</p>
             </div>
             <div className="">
-                <p> What's included:</p>
+                <p> What&apos;s included:</p>
                 <div className="flex flex-col gap-y-3 mt-2 ml-12 text-base leading-5 font-medium text-[#6b6b78]">
 
                <span> A cool feature</span>

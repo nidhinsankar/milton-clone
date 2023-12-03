@@ -55,7 +55,7 @@ const Banner = () => {
                 <motion.div variants={item}
                     initial='initial'
                     animate='animate' className="pt-8">
-                     <button className="px-8 py-4 bg-[#2e2e2e] rounded-xl text-white font-bold ml-2">Get started,it's free</button>
+                     <button className="px-8 py-4 bg-[#2e2e2e] rounded-xl text-white font-bold ml-2">Get started,it&apos;s free</button>
                      <p className="text-xs font-medium pt-2 text-[#6b6b78]">Free 14 days trials,no credit card needed</p>    
                 </motion.div> 
                 <motion.div  variants={item}
@@ -64,7 +64,7 @@ const Banner = () => {
                     <div className='flex -space-x-4 overflow-hidden'>
                     {userList.map(src => (
                         <div className='w-12 h-12 border-2 rounded-full flex justify-center items-center'>
-                            <Image src={src} className=' rounded-full' />
+                            <Image src={src} className=' rounded-full' key={src} alt='user' />
                         </div>
                     ))} 
                     </div>
@@ -72,7 +72,7 @@ const Banner = () => {
 
                     <div className='flex items-center'>
                         {[...Array(5)].map(i => (
-                            <Image src={gold} className='w-10 h-10' />
+                            <Image src={gold} className='w-10 h-10' key={i} alt='star' />
                             ))}
                         <span className='font-medium text-lg'>5.0</span>
                     </div>

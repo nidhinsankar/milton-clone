@@ -22,7 +22,7 @@ const Navbar = () => {
                     <a href="#" className="mr-2 font-bold text-gray-400 hover:text-gray-600 hover:border-b">Features</a>
                     <a href="#" className="mx-4 font-bold text-gray-400 hover:text-gray-600 hover:border-b">Testamonial</a>
                     <a href="#" className="mr-2 font-bold text-gray-400 hover:text-gray-600 hover:border-b">Pricing</a>
-                    <a href="#" className="mx-4 font-bold text-gray-400 hover:text-gray-600 hover:border-b">FAQ's</a>
+                    <a href="#" className="mx-4 font-bold text-gray-400 hover:text-gray-600 hover:border-b">FAQ&apos;s</a>
                     <a href="#" className="mr-2 font-bold text-gray-400 hover:text-gray-600 hover:border-b">Blog</a>
                 </div>
                 <div className="hidden lg:block">
@@ -52,7 +52,7 @@ const Navbar = () => {
                         <a href="#" className="mr-2 font-bold text-gray-400 hover:text-gray-600 hover:border-b">Features</a>
                         <a href="#" className="mx-4 font-bold text-gray-400 hover:text-gray-600 hover:border-b">Testamonial</a>
                         <a href="#" className="mr-2 font-bold text-gray-400 hover:text-gray-600 hover:border-b">Pricing</a>
-                        <a href="#" className="mx-4 font-bold text-gray-400 hover:text-gray-600 hover:border-b">FAQ's</a>
+                        <a href="#" className="mx-4 font-bold text-gray-400 hover:text-gray-600 hover:border-b">FAQ&apos;s</a>
                         <a href="#" className="mr-2 font-bold text-gray-400 hover:text-gray-600 hover:border-b">Blog</a>
                 </div>
                 <div className="lg:hidden flex flex-col items-center gap-y-3">
